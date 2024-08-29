@@ -1,32 +1,36 @@
-Malik Ribeiro Mourad - Portfólio Pessoal
+# 
 
+ O EmailJS integra o envio de formulários de contato. A estrutura do site inclui uma Home com links para seções principais, páginas sobre formação acadêmica, experiências profissionais, detalhes de projetos como o 'Copel Solar', e um resumo de certificações. As funcionalidades principais são um formulário de contato para mensagens diretas e links para detalhes dos projetos, com um design responsivo que se adapta a diferentes tamanhos de tela.
 
-Tecnologias Utilizadas
+# Malik Ribeiro Mourad - Portfólio Pessoal
 
-HTML5: Estruturação de conteúdo do site. 
+Esse é meu currículo digital, utilizando , CSS3 para estilização e design responsivo, e JavaScript para funcionalidades interativas.
 
-CSS3: Estilização e design responsivo.
+## Tecnologias Usadas
 
-JavaScript: Funcionalidades interativas e dinâmicas.
+- HTML5: Estruturação do conteúdo do site.
+- CSS3: Estilização e design responsivo.
+- JavaScript: Funcionalidades interativas e dinâmicas.
+- EmailJS: Envio de formulários de contato.
 
-EmailJS: Integração para envio de formulários de contato.
+## Instalação
 
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git](https://github.com/MalikRibeiro/malikribeiro.github.io.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd malikribeiro.github.io
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-Estrutura do Site
-Home: Introdução e links para as principais seções do portfólio.
+## Uso
 
-Formação: Resumo sobre minha formação acadêmica.
+Execute o projeto:
+```bash
+npm start
 
-Experiências: Resumo sobre minhas experiências profissionais.
-
-Projetos: Detalhes dos projetos que desenvolvi, com foco em automações e reformulação digital na Copel.
-
-Certificados: Resumo dascertificações em Power BI, SQL Server, Figma, e outras áreas.
-
-
-Funcionalidades Principais
-Formulário de Contato: Permite que os visitantes enviem mensagens diretamente para o meu e-mail.
-
-Links de Projetos: Acesso rápido aos detalhes dos projetos, como o projeto 'Copel Solar'.
-
-Design Responsivo: Layout ajustável para diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis.
