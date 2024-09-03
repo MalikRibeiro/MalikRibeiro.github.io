@@ -61,6 +61,13 @@ section {
   --left-margin: 400px;
 }
 
+#copelSolarCarousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 #sobre, #projetos, #contato, #certificado, .projetos_intro, #botao {
     margin: 0;
     padding: 20px;
@@ -180,7 +187,7 @@ h5 { font-size: 100px; color: grey; }
     border: none;
     border-radius: 50%;
     text-align: center;
-    line-height: 50px;
+    line-height: 45px;
     color: #FFF;
     font-size: 24px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -346,6 +353,10 @@ h5 { font-size: 100px; color: grey; }
   justify-content: center;
   max-width: 100%;
   margin: 0 auto;
+}
+
+#carousel-indicators{
+  display: none;
 }
 
 .carousel-item {
@@ -766,7 +777,7 @@ ul {
   transform: translateX(-50%);
   padding: 12px 48px;
   color: #fff;
-  background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+  background: linear-gradient(to right, #9f9f9f 0, #D3D3D3 10%, #868686 20%);
   background-size: 200% auto;
   background-position: 0 0;
   background-clip: text;
@@ -785,10 +796,10 @@ ul {
 
 @keyframes shine {
   0% {
-    background-position: -200%;
+    background-position: -300%;
   }
   100% {
-    background-position: 200%;
+    background-position: 300%;
   }
 }
 
@@ -896,6 +907,10 @@ ul {
 #programming-languages span {
   margin-top: 8px;
   font-size: 1rem;
+}
+
+#programming-languages h2{
+  text-align: center;
 }
 
 @media (min-width: 1200px) {
@@ -1102,9 +1117,9 @@ ul {
     width: 25%;
     left: 2%;
     top: 22%;
-}
+ }
 
-.loader {
+ .loader {
   display: none;
 }
 
