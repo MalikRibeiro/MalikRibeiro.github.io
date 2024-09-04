@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 (function() {
-    emailjs.init('pc60zHYGD4L6vKEue');
+    emailjs.init('rn9souEfARDwo7uCm');
 })();
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
