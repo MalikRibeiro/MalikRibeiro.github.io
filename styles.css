@@ -158,17 +158,32 @@ h5 { font-size: 100px; color: grey; }
 }
 
 .certificacao-btn {
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #3A3A3A;
-    border: 1px solid #555;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #D3D3D3;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 24px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  border: 1px solid #55555500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex: 1 1 calc(33.333% - 2rem);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: calc(95% - 1rem);
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 .certificacao-btn:hover {
-    background-color: #4A4A4A;
+    background-color: #2C2C2C;
+    color: #D3D3D3;
+    text-decoration: none;
 }
 
 .certificacao-icon {
@@ -323,29 +338,6 @@ h5 { font-size: 100px; color: grey; }
     transform: translateY(2px);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
     background-color: #222;
-}
-
-.certificacao-btn {
-    font-weight: bold;
-    text-decoration: none;
-    color: #D3D3D3;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 0.5rem 1rem;
-    border-radius: 12px;
-    margin-right: 10px;
-    display: inline-block;
-    font-size: 24px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
-    border: 1px solid #55555500;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    flex: 1 1 calc(33.333% - 2rem);
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: calc(95% - 1rem);
-    margin: 0 auto;
-    cursor: pointer;
 }
 
 .buttons {
